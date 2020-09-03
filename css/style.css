@@ -1,0 +1,353 @@
+body{
+    height: 90vh;
+    font-family: manrope, sans-serif;
+    
+
+}
+
+main{
+    float: right;
+    padding-top: 100px;
+    padding-right: 110px;
+
+}
+
+
+.animated {
+    float: right;
+    font-size: 100px;
+    color: rgb(182, 182, 233);
+    
+}
+
+#content a i{
+    font-size: 30px;
+    letter-spacing: 20px;
+
+}
+
+#content span{
+    color: #0c3d71;
+    font-weight: 900;
+}
+.container{
+    padding-left: 80px;
+    padding-top: 150px;
+    background-color:#fff;
+    }
+
+.mail {
+    padding-left: 15px;
+}
+
+.active a, a:hover{
+    text-decoration: none;
+    
+}
+
+.full h3{
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    font-style: normal;
+    color: #394153;
+}
+
+hr{
+    border-top:skyblue 3px solid;
+    width: 60px;
+    margin-left: 0;
+}
+big {
+    font-family: manrope, sans-serif;
+    font-weight: 900;
+    color: rgb(12, 61,113);
+    
+}
+.discript {
+    font-weight: 700 !important;
+    color: #767e90;
+    font-family: manrope, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 50px;
+
+}
+.navbar-brand{
+    font-weight: 800 !important;
+} 
+.dis{
+    font-weight: 700 !important;
+    color: #767e90;
+    font-family: manrope, sans-serif;
+    font-size: 12px;
+    text-align: left;
+
+
+}
+button{
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    border: 2px solid #0c3d71;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 10px 30px;
+
+}
+.blue{
+    background-color:rgb(12, 61, 113);
+    color: white;
+    font-size: 14px;
+    padding: 10px 30px;
+    border: 2px solid #0c3d71;
+    color: #fff;
+
+}
+
+
+
+
+#content {
+    margin-top: -55px;
+    font-weight: bold;
+
+}
+
+.mobile-container {
+    max-width: 100%;
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  
+  .topnav{
+    overflow: hidden;
+    background-color:#fff;
+    color:  #394153;
+    position: fixed;
+    
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color:black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 37px;
+    display: block;
+    
+  }
+  #myLinks a{
+      font-size: 20px;
+  }
+  
+  .topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav .fa{
+    padding: 29px 0px 12px 25px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: "manrope" sans-serif;
+}
+  
+  .icon .fa{
+      font-size: 20px;
+      padding-right: 70px;
+      padding-top: -20px;
+  }
+  .pro{
+      padding: 10px 0px 110px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      margin-top: 10px;
+      
+  }
+  .contane{
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15;
+      margin-left: -15;
+  }
+  .p{
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      line-height: 2.56;
+  }
+  .pro img{
+      width: 80%;
+      display: inline-block;
+      padding: 10px 0px;
+      transition: all 0.4s all ease-in-out;
+  }
+
+  #services{
+      z-index: 0;
+      width: 100%;
+      position: relative;
+      background-color: rgb(220, 231, 250);
+  }
+
+
+
+  #services .contane{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sectitle{
+      text-align: center;
+      padding-bottom: 20px;
+  }
+
+  .sectitle h6{
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 3px;
+      margin-bottom: 12px;
+      line-height: 1.4;
+
+  }
+
+
+  .card{
+    background-color: rgb(220, 231, 250) !important;
+    border: none;
+  }
+  .sectitle h2{
+      text-transform: capitalize;
+      position: relative;
+      font-size: 36px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.67;
+      text-align: center;
+      letter-spacing: normal;
+      color: var(--lightColor);
+  }
+
+  strong{
+      font-weight: bolder;
+  }
+
+  .sectitle p{
+      padding: 12px 0 48px 0;
+  }
+
+  .card-group .card .fa{
+      font-size: 60px;
+      color: rgb(109, 109, 177);
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .port{
+      width: 100%;
+      position: relative;
+      display: block;
+      margin-top: 50px;
+  }
+  .card-group{
+      background-color: rgb(109, 109, 177);
+      margin-bottom: 30px;
+  }
+
+
+
+  .card-title{
+      text-align: center;
+      font-size: 30px;
+  }
+
+ .port{
+     justify-content: center;
+ }
+
+ .port .lio h2{
+     text-align: center;
+ }
+
+ .port .poimg img{
+     text-align: center;
+     padding: 10px;
+ }
+
+ .poimg {
+     padding-left: 60px;
+ }
+  
+
+
+  
+  
+
+  @media all and (min-width:576){
+      #num{
+        max-width: 540px;
+      }
+      #cont{
+        max-width: 540px;
+      }
+      .mobile-container{
+        max-width: 540px;
+      }
+  }
+
+  @media (min-width:576){
+      .contane{
+          max-width: 540px;
+          padding-right: -110 !important;
+      }
+  }
+    
+  @media only screen and (min-width:480px){
+      #we-do{
+          height: auto !important;
+          padding: 124px 0;
+      }
+
+  }
+  @media all and(min-width:600px){
+      main{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          flex-wrap: wrap;
+      }
+  }
+
+
+  @media only screen and(max-width: 1023px){
+      section {
+          padding: 108px 5%;
+      }
+  }
+
+
